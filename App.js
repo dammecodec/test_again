@@ -33,7 +33,10 @@ export default class App extends Component {
           name="Login"
           component={Login}
         />
-
+        <Stack.Screen
+          name="Home"
+          component={Home}
+        />
         </Stack.Navigator>
       </NavigationContainer>
     );
